@@ -36,7 +36,7 @@ export default function CreditsPage() {
             </div>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
             {/* Creadores */}
             <Card className="shadow-md">
               <CardHeader className="bg-primary/5 rounded-t-lg">
@@ -46,43 +46,50 @@ export default function CreditsPage() {
                 <div>
                   <h3 className="font-medium text-primary">Desarrollo Web</h3>
                   <ul className="list-disc pl-5 mt-2 space-y-1">
-                    <li>Ignacio Bchare - Desarrollador Frontend</li>
+                    <li>Francisco Hurtado - Desarrollador Frontend</li>
                     <li>Luis Velázquez - Desarrollador Backend</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-medium text-primary">Contenido Nutricional</h3>
                   <ul className="list-disc pl-5 mt-2 space-y-1">
-                    <li>Francisco Hurtado - Nutricionista</li>
+                    <li>Ignacio Bchare - Nutricionista</li>
                   </ul>
                 </div>
               </CardContent>
             </Card>
 
             {/* Agradecimientos */}
-            <Card className="shadow-md">
+            <Card className="shadow-md lg:col-span-1">
               <CardHeader className="bg-primary/5 rounded-t-lg">
-                <CardTitle className="text-xl">Agradecimientos</CardTitle>
+                <CardTitle className="text-xl text-center">Agradecimientos</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4 pt-6">
-                <p>
-                  Agradecemos especialmente a las siguientes personas e instituciones por su apoyo y contribuciones:
-                </p>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>Gloria Vargas - Por su apoyo brindado en el desarrollo del proyecto</li>
-                  <li><a href="https://vercel.com/">Vercel</a> - Por la infraestructura para el desarrollo web</li>
-                  <li><a href="https://fitgeneration.es/">Fit Generation</a> - Por la validación de datos</li>
-                  <li>Estudiantes de 4to A - Por sus valiosos comentarios y sugerencias</li>
-                </ul>
+              <CardContent className="pt-6">
+                <div className="space-y-4 text-justify leading-relaxed">
+                  <p>Primeramente, le damos las gracias a Dios por todo, por permitirnos hacer este proyecto.</p>
+                  <p>
+                    A nuestros padres, por todo el apoyo afectivo, económico, por cada ayuda y por cada consejo que nos
+                    han dado.
+                  </p>
+                  <p>A la profesora Gloria Vargas por asesorarnos durante nuestro proyecto.</p>
+                  <p>A los alumnos de cuarto año sección "A" por su colaboración y comportamiento.</p>
+                  <p>Al profesor Carlos Coronado por darnos su autorización para realizar las encuestas.</p>
+                  <p>
+                    A la profesora Wendy Ávila por permitirnos darles la información a los alumnos durante su hora de
+                    clases.
+                  </p>
+                </div>
               </CardContent>
             </Card>
           </div>
 
+          {/* Información del proyecto centrada */}
           <div className="mt-12 text-center">
             <p className="text-muted-foreground">
-              Este proyecto fue desarrollado por parte de estudiantes del 5to B como parte de una iniciativa para promover hábitos alimenticios saludables.
+              Este proyecto fue desarrollado como parte de una iniciativa educativa para promover hábitos alimenticios
+              saludables.
             </p>
-            <p className="text-muted-foreground mt-2">Barinas - Mayo 2025</p>
+            <p className="text-muted-foreground mt-2">Versión 1.0 - Mayo 2025</p>
           </div>
         </div>
       </main>
