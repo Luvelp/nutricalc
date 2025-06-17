@@ -46,16 +46,16 @@ export default function CreditsPage() {
                 <div>
                   <h3 className="font-medium text-primary">Desarrollo Web</h3>
                   <ul className="list-disc pl-5 mt-2 space-y-1">
-                    <li>Francisco Hurtado - Desarrollador Frontend</li>
+                    <li>Ignacio Bchare - Desarrollador Frontend</li>
                     <li>Luis Velázquez - Desarrollador Backend</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-medium text-primary">Contenido Nutricional</h3>
                   <ul className="list-disc pl-5 mt-2 space-y-1">
-                    <li>Ignacio Bchare - Nutricionista</li>
+                    <li>Francisco Hurtado - Nutricionista</li>
                   </ul>
-                </div>
+                </div> 
               </CardContent>
             </Card>
 
